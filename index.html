@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moje Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Witaj, mam na imię Mikołaj Wieczorek</h1>
+    <p>Front-end Developer | Designer | Pasjonat technologii</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">O mnie</a></li>
+      <li><a href="#projects">Projekty</a></li>
+      <li><a href="#contact">Kontakt</a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <h2>O mnie</h2>
+    <p>Cześć! Jestem programistą z zamiłowaniem do tworzenia interaktywnych aplikacji webowych. Mam doświadczenie w pracy z technologiami takimi jak HTML, CSS, JavaScript oraz React.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Moje projekty</h2>
+    <div class="project">
+      <h3>Projekt 1</h3>
+      <p>Koło programistyczne w szkole.</p>
+    </div>
+    <div class="project">
+      <h3>Projekt 2</h3>
+      <p>Zarządzanie bazami danych w ramach praktyk w firmie Pixel Technology Łódź.</p>
+    </div>
+    <div class="project">
+      <h3>Projekt 3</h3>
+      <p>Praca grupowa w ramach praktyk polegająca na stworzeniu strony z kursami programistycznymi.</p>
+    </div>
+    <div class="project">
+        <h3>Projekt 4</h3>
+        <p>Liczne egzaminy zawodowe, które są dostępne na moim Github.</p>
+      </div>
+  </section>
+
+  <section id="contact">
+    <h2>Kontakt</h2>
+    <form id="contactForm">
+      <label for="name">Imię:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Wiadomość:</label>
+      <textarea id="message" name="message" required></textarea>
+      
+      <button type="submit">Wyślij</button>
+    </form>
+    <p id="formMessage"></p>
+  </section>
+
+  <footer>
+    <p>© 2024 Mikołaj Wieczorek. Wszystkie prawa zastrzeżone.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
